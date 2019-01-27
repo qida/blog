@@ -5,7 +5,7 @@
 
 var fs = require('fs');
 var utils = require('../../core/utils/index.js');
-var assetPath = "../web/asset/";
+var assetPath = "../static/";
 
 exports.createDir = function (req,callback){
 	utils.parse.request(req,function(err,fields,files){
@@ -25,7 +25,7 @@ exports.createDir = function (req,callback){
 			if(exists){
 				callback && callback('目录重名');
 			}else{
-				fs.mkdir(Path,777,function(err){
+				fs.mkdir(Path, function(err){
 					if(err){
 						callback && callback('出错了');
 					}else{

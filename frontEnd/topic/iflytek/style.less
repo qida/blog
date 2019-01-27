@@ -1,0 +1,365 @@
+@import 'sound-animation.less';
+@color_1: #666;
+@color_2: #333;
+@color_3: rgb(51, 51, 51);
+@font_family_1: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+@background_color_1: #eee;
+@background_color_2: #9fe658;
+@border_color_1: #eee;
+@border_color_2: #9fe658;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    font-family: @font_family_1;
+    background: #3d505c
+}
+.show-detail-action{
+    position: absolute;
+    width: 100px;
+    height: 36px;;
+    bottom: 200px;
+    right: 0;
+    padding: 0 10px 0 15px;
+    background: rgba(255,255,255,.6);
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    border-radius: 18px 0 0 18px;
+    line-height: 36px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #2e3438;
+}
+.loading-mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fafafa;
+    transition: .4s ease-out;
+    opacity: 1;
+    .text{
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        top: 50%;
+        left: 0;
+        margin-top: -30px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px;
+        color: #333;
+        p{
+            color: #859dad;
+        }
+        h3{
+            color: #526a7a;
+        }
+    }
+    &.close{
+        opacity: 0;
+    }
+}
+#app {
+    position: relative;
+    height: 100%;
+    max-width: 700px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.chat-window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 153px;
+    width: 100%;
+    overflow: hidden;
+    background: #f2f2f3;
+    .chat-list {
+        padding: 20px 0;
+        transition: .5s;
+    }
+    &.normal-scroll{
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        .chat-list{
+            transition: 0s !important;;
+            transform: translateY(0) !important;
+        }
+    }
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    .input-bar{
+        padding: 7px 0;
+        border-top: 1px solid #eee;
+        background: #fafafa;
+        .typed-area{
+            min-height: 24px;
+            margin: 0 10px;
+            padding: 6px 10px;
+            border-radius: 4px;
+            border: 1px solid #eee;
+            background: #fff;
+            line-height: 24px;
+            font-size: 15px;
+            color: #2e3438;
+        }
+    }
+    .sound-input{
+        position: relative;
+        height: 100px;
+        border-top: 1px solid #eee;
+        background: #fff;
+        .mask{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: #fff;
+            transition: .2s;
+            line-height: 100px;
+            text-align: center;
+            font-size: 16px;
+            color: #dde6ee;
+            &.hidden{
+                opacity: 0;
+            }
+        }
+    }
+}
+.chat-item {
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    font-size: 0;
+    .avatar {
+        display: inline-block;
+        vertical-align: text-top;
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: @background_color_1;
+        box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+    }
+    .content {
+        display: inline-block;
+        vertical-align: text-top;
+        max-width: 70%;
+        margin: 0 20px;
+        white-space: pre-wrap;
+        .nickname {
+            color: @color_1;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 12px;
+            height: 12px;
+            line-height: 12px;
+        }
+        .content-body {
+            position: relative;
+            max-width: 350px;
+            margin-left: -2px;
+            min-height: 3em;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            background: #fafafa;
+            .text{
+                padding: 12px 8px 12px 12px;
+                line-height: 1.5;
+                text-align: left;
+                font-size: 16px;
+                color: @color_2;
+                a{
+                    margin-left: 10px;
+                    color: #428cd7;
+                    text-decoration: underline;
+                }
+            }
+            .image{
+                position: relative;
+                width: 230px;
+                background: no-repeat center;
+                background-size: cover;
+                border-radius: 4px;
+                overflow: hidden;
+            }
+        }
+    }
+}
+.chat-item-other {
+    .content-body:before {
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: -7px;
+        width: 12px;
+        height: 12px;
+        border-style: solid;
+        border-color: @border_color_1;
+        border-width: 0 0 1px 1px;
+        background: #fafafa;
+        transform: rotate(45deg);
+    }
+}
+.chat-item-me {
+    text-align: right;
+    .avatar{
+        float: right;
+    }
+    .content {
+        .content-body {
+            margin-right: -2px;
+            border-color: @border_color_2;
+            background-color: @background_color_2;
+            box-sizing: border-box;
+            vertical-align: top;
+            display: inline-block;
+            .text{
+                line-height: 1.2;
+                text-align: left;
+                color: @color_3;
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                top: 20px;
+                right: -6px;
+                width: 12px;
+                height: 12px;
+                background: #9fe658;
+                transform: rotate(45deg);
+            }
+        }
+    }
+}
+.system-msg{
+    text-align: center;
+    .msg{
+        display: inline-block;
+        padding: 5px 20px;
+        background: #ddd;
+        border-radius: 4px;
+        line-height: 20px;
+        font-size: 14px;
+        color: #fff;
+    }
+}
+.detail{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.7);
+    &:before{
+        content: '拜托分享到小群，帮我拉个票呗！';
+        position: absolute;
+        top: 95px;
+        left: 20px;
+        right: 100px;
+        line-height: 20px;
+        text-align: right;
+        font-size: 14px;
+        color: #fff;
+    }
+    .close{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        font-family: "simsun";
+        font-weight: bold;
+        font-size: 24px;
+    }
+    &:after{
+        content: '';
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 80px;
+        height: 90px;
+        background: url('images/share-it.png') no-repeat right top;
+        background-size: contain;
+    }
+    .article{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        h3{
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: normal
+        }
+        .qr-code{
+            margin-bottom: 6px;
+            img{
+                display: inline-block;
+                width: 80px;
+                height: 80px;
+                border: 4px solid #fff;
+            }
+        }
+        a{
+            display: block;
+            margin-bottom: 20px;
+            font-size: 12px;
+            color: inherit
+        }
+        p{
+            display: block;
+            margin-bottom: 10px;
+            font-size: 12px;
+            color: inherit
+        }
+        .random-pic{
+            position: relative;
+            background: no-repeat center bottom #eee;
+            background-size: cover;
+            &:after{
+                content: '';
+                display: block;
+                height: 0;
+                padding-top: 67%; 
+            }
+            .title{
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+                padding: 5px 10px;
+                border-radius: 2px;
+                line-height: 14px;
+                font-size: 12px;
+                color: #fff;
+                background: rgba(0, 0, 0, .3);
+            }
+        }
+    }
+}
+@media all and (orientation : landscape) { 
+    .random-pic{
+        display: none;
+    }
+}

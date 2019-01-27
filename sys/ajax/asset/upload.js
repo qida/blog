@@ -5,7 +5,7 @@
 
 var fs = require('fs');
 var utils = require('../../core/utils/index.js');
-var assetPath = "../web/asset/";
+var assetPath = "../static/";
 
 exports.upload = function (req,callback){
 	utils.parse.request(req,function(err,fields, files){
@@ -14,7 +14,7 @@ exports.upload = function (req,callback){
 			callback && callback(err);
 		}else if(files.length){
 			var newFiles = [];
-			var root = fields.root;
+			var root = (fields.root || '/');
 			//消除参数中首尾的｛/｝
 			root = root.replace(/^\/|\/$/g,'');
 			
@@ -31,9 +31,8 @@ exports.upload = function (req,callback){
 				}else{
 					fs.rename(files[i].path,newPath);
 					newFiles.push({
-	 	    			'name' : files[i]['name'],
-	 	    			'path' : 'http://asset.bh-lay.com/' + root + '/' + files[i]['name']
-	 	    		});
+						'name' : files[i]['name']
+	 				});
 				}
 			}
 			callback && callback(null,newFiles);

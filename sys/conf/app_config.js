@@ -7,7 +7,7 @@
 module.exports = {
 	host : '*',
   //端口号
-	port : 80,
+	port : 8888,
   //静态资源
   static: {
     //静态资源根目录
@@ -32,12 +32,8 @@ module.exports = {
   }, 
 	//前端版本控制（css、js、图片、字体）
 	frontEnd: {
-    //根目录
-    base : '/frontEnd/develop/',
-    //版本
-    version : '20141217',
     //图床地址
-    img_domain : '/asset'
+    img_domain : 'http://127.0.0.1:8088'
   },
   //SESSION配置
   session : {
@@ -51,10 +47,10 @@ module.exports = {
   },
   //数据库链接
 	mongo : {
-		host: 'localhost',
+		host: '127.0.0.1',
 		port: 27017,
-		user: 'lay',
-		pass: '19900927',
+		user: 'bloguser',
+		pass: '123456',
 		db_name: 'blog'
 	}
 }; 

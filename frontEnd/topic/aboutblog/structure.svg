@@ -1,0 +1,453 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1186" height="737" viewbox="77 -17 1186 737" style="font-family:Microsoft Yahei;font-size:12px;">
+   <defs>
+    <lineargradient x1="0" y1="0" x2="0" y2="1">
+     <stop offset="0" stop-color="rgb(255, 255, 255)"></stop>
+     <stop offset="1" stop-color="rgb(204, 204, 204)"></stop>
+    </lineargradient>
+    <marker orient="auto" refx="6" refy="0" viewbox="-7 -7 14 14" markerwidth="7" markerheight="7" markerunits="userSpaceOnUse">
+     <path fill="white" stroke="none" d="M6,0A6,6,0,1,1,-6,0A6,6,0,1,1,6,0"></path>
+    </marker>
+   </defs>
+   <g transform="translate(-77, 17)">
+    <g text-rendering="optimize-speed" transform="translate( 612 465 )">
+     <g>
+      <path fill="none" stroke="white" stroke-width="3" d="M96 0A163,5,0,0,0,259 5" transform="translate( 0 0 )"></path>
+      <path fill="none" stroke="white" stroke-width="3" d="M96 0A69,88,0,0,1,165 -88" transform="translate( 0 0 )"></path>
+      <path fill="none" stroke="white" stroke-width="3" d="M96 0A154,0,0,0,1,-58 0" transform="translate( 0 0 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-211 0C-216,0,-216,-142,-221 -142L-350 -142" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-350 -142C-355,-142,-355,-278,-360 -278L-481 -278" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-350 -142C-355,-142,-355,-246,-360 -246L-429 -246" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-350 -142C-355,-142,-355,-214,-360 -214L-421 -214" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-350 -142C-355,-142,-355,-182,-360 -182L-459 -182" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-350 -142C-355,-142,-355,-150,-360 -150L-440 -150" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-350 -142C-355,-142,-355,-118,-360 -118L-406 -118" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-350 -142C-355,-142,-355,-86,-360 -86L-429 -86" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-350 -142C-355,-142,-355,-54,-360 -54L-440 -54" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-350 -142C-355,-142,-355,-6,-360 -6L-411 -6" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-411 -6C-416,-6,-416,-22,-421 -22L-483 -22" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-411 -6C-416,-6,-416,10,-421 10L-515 10" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-211 0C-216,0,-216,42,-221 42L-282 42" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-211 0C-216,0,-216,74,-221 74L-314 74" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-211 0C-216,0,-216,106,-221 106L-381 106" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-211 0C-216,0,-216,138,-221 138L-294 138" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M-211 0C-216,0,-216,170,-221 170L-278 170" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M527 -309C532,-309,532,-437,537 -437L619 -437" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M527 -309C532,-309,532,-405,537 -405L596 -405" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M527 -309C532,-309,532,-373,537 -373L598 -373" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M527 -309C532,-309,532,-341,537 -341L595 -341" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M527 -309C532,-309,532,-309,537 -309L604 -309" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M527 -309C532,-309,532,-277,537 -277L631 -277" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M527 -309C532,-309,532,-245,537 -245L619 -245" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M527 -309C532,-309,532,-213,537 -213L592 -213" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M527 -309C532,-309,532,-181,537 -181L604 -181" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M431 -197C436,-197,436,-309,441 -309L527 -309" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M532 -85C537,-85,537,-149,542 -149L599 -149" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M532 -85C537,-85,537,-117,542 -117L594 -117" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M532 -85C537,-85,537,-85,542 -85L623 -85" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M532 -85C537,-85,537,-53,542 -53L589 -53" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M532 -85C537,-85,537,-21,542 -21L596 -21" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M431 -197C436,-197,436,-85,441 -85L532 -85" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M355 5C360,5,360,-197,365 -197L431 -197" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M431 27C436,27,436,11,441 11L528 11" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M431 27C436,27,436,43,441 43L509 43" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M355 5C360,5,360,27,365 27L431 27" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M443 139C448,139,448,171,453 171L514 171" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M443 139C448,139,448,107,453 107L540 107" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M443 139C448,139,448,139,453 139L546 139" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M443 139C448,139,448,75,453 75L521 75" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M355 5C360,5,360,139,365 139L443 139" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M355 5C360,5,360,235,365 235L443 235" transform="translate( 0.5 0.5 )"></path>
+      <path fill="none" stroke="white" stroke-width="2" d="M443 139C448,139,448,203,453 203L520 203" transform="translate( 0.5 0.5 )"></path>
+     </g>
+     <g transform="matrix( 1 0 0 1 0 0 )">
+      <path fill="rgba(0, 0, 0, .25)" stroke="none" d="M1,-17h198a22,22,0,0,1,22,22v0a22,22,0,0,1,-22,22h-198a22,22,0,0,1,-22,-22v0a22,22,0,0,1,22,-22z"></path>
+      <path fill="rgb(254, 219, 0)" stroke="rgb(254, 219, 0)" d="M-3,-22h198a22,22,0,0,1,22,22v0a22,22,0,0,1,-22,22h-198a22,22,0,0,1,-22,-22v0a22,22,0,0,1,22,-22z" stroke-width="3"></path>
+      <g transform="translate( 0 0 )" fill="black">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="24" dy="0" y="-12">
+        小剧客栈代码结构
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 276 5 )">
+      <path fill="rgba(0, 0, 0, .25)" stroke="none" d="M-1,-8h74a10,10,0,0,1,10,10v6a10,10,0,0,1,-10,10h-74a10,10,0,0,1,-10,-10v-6a10,10,0,0,1,10,-10z"></path>
+      <path fill="#a4c5c0" stroke="#a4c5c0" d="M-5,-13h74a10,10,0,0,1,10,10v6a10,10,0,0,1,-10,10h-74a10,10,0,0,1,-10,-10v-6a10,10,0,0,1,10,-10z"></path>
+      <g transform="translate( 0 0 )" fill="#333">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="16" dy="0" y="-8">
+        前端页面
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 182 -88 )">
+      <path fill="rgba(0, 0, 0, .25)" stroke="none" d="M-1,-8h134a10,10,0,0,1,10,10v6a10,10,0,0,1,-10,10h-134a10,10,0,0,1,-10,-10v-6a10,10,0,0,1,10,-10z"></path>
+      <path fill="#a4c5c0" stroke="#a4c5c0" d="M-5,-13h134a10,10,0,0,1,10,10v6a10,10,0,0,1,-10,10h-134a10,10,0,0,1,-10,-10v-6a10,10,0,0,1,10,-10z"></path>
+      <g transform="translate( 0 0 )" fill="#333">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="16" dy="0" y="-8">
+        代码构建（FIS3）
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -196 0 )">
+      <path fill="rgba(0, 0, 0, .25)" stroke="none" d="M-1,-8h131a10,10,0,0,1,10,10v6a10,10,0,0,1,-10,10h-131a10,10,0,0,1,-10,-10v-6a10,10,0,0,1,10,-10z"></path>
+      <path fill="#a4c5c0" stroke="#a4c5c0" d="M-5,-13h131a10,10,0,0,1,10,10v6a10,10,0,0,1,-10,10h-131a10,10,0,0,1,-10,-10v-6a10,10,0,0,1,10,-10z"></path>
+      <g transform="translate( 0 0 )" fill="#333">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="16" dy="0" y="-8">
+        后端（nodeJS）
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -340 -156 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h109a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-109a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        core（核心代码）
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -471 -292 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h101a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-101a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        index（APP类）
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -419 -260 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h49a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-49a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        cache
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -411 -228 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h41a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-41a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        views
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -449 -196 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h79a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-79a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        component
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -430 -164 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h60a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-60a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        connect
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -396 -132 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h26a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-26a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        DB
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -419 -100 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h49a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-49a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        session
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -430 -68 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h60a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-60a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        staticFile
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -401 -20 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h31a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-31a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        utils
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -473 -36 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h42a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-42a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        parse
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -505 -4 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h74a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-74a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        pagination
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -272 28 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h41a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-41a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        juicer
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -304 60 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h73a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-73a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        showdown
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -371 92 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h140a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-140a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        mongoDB（连接模块）
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -284 124 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h53a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-53a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        request
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 -268 156 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h37a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-37a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        cron
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 557 -451 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h62a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-62a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        requireJS
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 557 -419 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h39a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-39a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        Sizzle
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 557 -387 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h41a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-41a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        juicer
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 557 -355 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h38a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-38a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        lofox
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 557 -323 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h47a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-47a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        dialog
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 557 -291 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h74a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-74a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        pagination
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 557 -259 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h62a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-62a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        selection
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 557 -227 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h35a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-35a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        stick
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 557 -195 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h47a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-47a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        md5.js
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 461 -323 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h66a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-66a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        javascript
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 562 -163 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h37a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-37a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        core
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 562 -131 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h32a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-32a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        grid
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 562 -99 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h61a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-61a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        fontface
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 562 -67 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h27a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-27a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        hljs
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 562 -35 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h34a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-34a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        ……
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 461 -99 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h71a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-71a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        css（less）
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 385 -211 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h46a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-46a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        尝鲜版
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 461 -3 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h67a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-67a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        bootstrap
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 461 29 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h48a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-48a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        jQuery
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 385 13 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h46a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-46a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        屌丝版
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 473 157 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h41a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-41a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        juicer
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 473 93 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h67a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-67a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        bootstrap
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 473 125 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h73a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-73a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        showdown
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 473 61 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h48a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-48a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        jQuery
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 385 125 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h58a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-58a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        后台管理
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 385 221 )">
+      <path fill="transparent" stroke="none" d="M-5,-11h58a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-58a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        零散页面
+       </text>
+      </g>
+     </g>
+     <g transform="matrix( 1 0 0 1 473 189 )">
+      <path fill="#e75d66" stroke="none" d="M-5,-11h47a5,5,0,0,1,5,5v12a5,5,0,0,1,-5,5h-47a5,5,0,0,1,-5,-5v-12a5,5,0,0,1,5,-5z"></path>
+      <g transform="translate( 0 0 )" fill="white">
+       <text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="12" dy="0" y="-6">
+        Mditor
+       </text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g transform="translate(580 515)"><text text-rendering="inherit" dominant-baseline="text-before-edge" font-size="14">红底部分本人开发</text></g>
+  </svg>

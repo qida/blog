@@ -2,12 +2,12 @@
  * @author bh-lay
  * 
  * @demo
- * 	cache.use('blog_list',['blog','ajax'],function(this_cache){
- * 		//do something with this_cache
- * 	},function(save_cache){
- * 		//if none of cache,do this Fn ,in the end Fn1 with be start
- * 		save_cache(this_cache);
- * 	});
+ *  cache.use('blog_list',['blog','ajax'],function(this_cache){
+ *    //do something with this_cache
+ *  },function(save_cache){
+ *    //if none of cache,do this Fn ,in the end Fn1 with be start
+ *    save_cache(this_cache);
+ *  });
  */
 var fs = require('fs');
 
@@ -28,30 +28,30 @@ function Cache(param){
 
 //清除缓存
 Cache.prototype.clear = function(tags,callback){
-    if(typeof(tags)=='string' && tags.length > 0){
-        tags = tags.split(',');
-        //精准清除
-        this.try_del_each_cache(function(file_tags){
-            //遍历缓存文件的标签
-            for(var i=0,total=file_tags.length; i<total; i++){
-                var file_tag_item = file_tags[i];
-                //遍历待删除缓存标签
-                for(var s=0,all=tags.length; s<all; s++){
-                    var clear_tag_item = tags[s];
-                    //对比标签，相等就删除
-                    if(file_tag_item == clear_tag_item){
-                        return true;
-                    }
-                }
-            }
-            return false;
-        });
-        callback&&callback();
-    }else{
-        //暴力清除
-		this.try_del_each_cache();
-		callback&&callback();
-	}
+  if(typeof(tags)=='string' && tags.length > 0){
+    tags = tags.split(',');
+    //精准清除
+    this.try_del_each_cache(function(file_tags){
+      //遍历缓存文件的标签
+      for(var i=0,total=file_tags.length; i<total; i++){
+        var file_tag_item = file_tags[i];
+        //遍历待删除缓存标签
+        for(var s=0,all=tags.length; s<all; s++){
+          var clear_tag_item = tags[s];
+          //对比标签，相等就删除
+          if(file_tag_item == clear_tag_item){
+            return true;
+          }
+        }
+      }
+      return false;
+    });
+    callback&&callback();
+  }else{
+    //暴力清除
+    this.try_del_each_cache();
+    callback&&callback();
+  }
 };
 
 /**
@@ -92,60 +92,66 @@ Cache.prototype.use = function (cache_name,tags,callback,create_content){
     var cache_path = this.root + tagsStr + '--' + cache_name;
     
      //检测此条缓存是否存在
-	fs.exists(cache_path, function(exists) {
-		if(exists){
-			//存在，直接读取缓存
-			fs.readFile(cache_path,'UTF-8',function(err,this_cache){
-				if(err){
-					consele.log('readFile error');
-				}
-				callback(this_cache);
-			});
-		}else{
-			//不存在，调用创建缓存函数
-			create_content(function(new_cache){
-				//通知调用方使用新的缓存
-                callback(new_cache);
-				//保存缓存至对应目录
-				fs.writeFile(cache_path,new_cache,function(err){
-					if(err){
-						console.log('create cache error',cache_name);
-					};
-				});
-                //检查缓存数量
-                fs.readdir(me.root,function(err,files){
-                    //缓存过多，清空
-                    if(!err && files.length > me.cache_max_num){
-                        me.try_del_each_cache();
-                    }
-                });
-			});
-		}
-	});
+    fs.exists(cache_path, function(exists) {
+      if(exists){
+        //存在，直接读取缓存
+        fs.readFile(cache_path,'UTF-8',function(err,this_cache){
+          if(err){
+            consele.log('readFile error');
+          }
+          callback(this_cache);
+        });
+      }else{
+        //不存在，调用创建缓存函数
+        create_content(function(new_cache){
+          if(typeof(new_cache) == 'object'){
+            //兼容JSON数据
+            new_cache = JSON.stringify(new_cache);
+          }
+          //通知调用方使用新的缓存
+          callback(new_cache);
+          //保存缓存至对应目录
+          fs.writeFile(cache_path,new_cache,function(err){
+            if(err){
+              console.log('create cache error',cache_name);
+            };
+          });
+          //检查缓存数量
+          fs.readdir(me.root,function(err,files){
+            //缓存过多，清空
+            if(!err && files.length > me.cache_max_num){
+              me.try_del_each_cache();
+            }
+          });
+      });
+    }
+  });
 };
 
 
 //尝试遍历删除缓存文件
 Cache.prototype.try_del_each_cache = function(callback){
-    var root = this.root;
-	fs.readdir(root,function(err,files){
-		if(err){
-			return
-		}
-		var total = files.length;
-        
-		for(var i = 0;i < total;i++){
-			var filename_split = files[i].split('--'),
-                tags = (filename_split[0] || '').split('_'),
-                name = filename_split[1] || '';
-            if(files[i] != 'readMe.md'){
-                //没有定义检查函数，或者检查函数返回值为true，删除缓存
-                if(!callback || callback(tags,name)){
-                    fs.unlink(root + files[i]);
-                }
-			}
-		}
-	});
+  var root = this.root;
+  fs.readdir(root,function(err,files){
+    if(err){
+      return;
+    }
+    var total = files.length;
+    
+    for(var i = 0;i < total;i++){
+      var filename_split = files[i].split('--'),
+          tags = (filename_split[0] || '').split('_'),
+          name = filename_split[1] || '';
+      //跳过被忽略的文件
+      if(files[i] == 'readMe.md' || files[i] == '.gitignore'){
+        continue;
+      }
+      //没有定义检查函数，或者检查函数返回值为true，删除缓存
+      if(!callback || callback(tags,name)){
+        fs.unlink(root + files[i]);
+      }
+    }
+  });
 };
 
 module.exports = Cache;

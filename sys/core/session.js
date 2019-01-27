@@ -26,7 +26,11 @@ var fs = require('fs');
 function save_session(){
   var pathname = this.path;
   var data = JSON.stringify(this);
-  fs.writeFileSync(pathname,data);
+  var status = fs.writeFile(pathname,data,function( err ){
+    if( err ){
+      console.error('write seesion file error', err );
+    }
+  });
 }
 //生成session id
 function createSessionID(){
@@ -77,7 +81,7 @@ function session_factory(param){
   //检测是否配置session存储目录
   if(!session_root){
     console.error('need seesion path');
-    return
+    return;
   }
   /**
    * session主类
@@ -92,34 +96,35 @@ function session_factory(param){
     var that = this;
     // find sessionID in session library
     fs.exists(this.path, function(exists) {
-        if(exists){
-            //read session file
-            fs.readFile(that.path,'UTF-8',function(err,file){
-              if(err){
-                callback && callback(err);
-                return;
-              }
-              var JSON_file = JSON.parse(file);
-              for(var i in JSON_file){
-                that[i] = JSON_file[i];
-              }
-              callback&&callback();
-            });
-        }else{
-          //create session file
-          that.time_cerate = new Date();
-
-          that.data = {
-            user_group : 'guest'
-          };
-          writeCookie({
-            session_verify : that.sessionID,
-            path : '/',
-            'Max-Age' : 60*60*24*7,//session浏览器端保存七天
-            HttpOnly : true//前端脚本不可见
-          });
+      if(exists){
+        //read session file
+        fs.readFile(that.path,'UTF-8',function(err,file){
+          if(err){
+            console.error('read session file error',err);
+            callback && callback(err);
+            return;
+          }
+          var JSON_file = JSON.parse(file);
+          for(var i in JSON_file){
+            that[i] = JSON_file[i];
+          }
           callback&&callback();
-        }
+        });
+      }else{
+        //create session file
+        that.time_cerate = new Date();
+
+        that.data = {
+          user_group : 'guest'
+        };
+        writeCookie({
+          session_verify : that.sessionID,
+          path : '/',
+          'Max-Age' : 60*60*24*7,//session浏览器端保存七天
+          HttpOnly : true//前端脚本不可见
+        });
+        callback&&callback();
+      }
     });
   }
   SESSION.prototype = proto;
